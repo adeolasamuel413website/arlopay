@@ -2,11 +2,8 @@
   "name": "qunzo-user",
   "version": "0.1.0",
   "private": true,
-  "scripts": {
-    "dev": "next dev --turbopack",
-    "build": "next build --turbopack",
-    "start": "next start",
-    "lint": "eslint"
+ "scripts": {
+  "start": "node server.js"
   },
   "dependencies": {
     "@iconify/react": "^6.0.2",
@@ -45,3 +42,4 @@
     "tw-animate-css": "^1.4.0"
   }
 }
+
